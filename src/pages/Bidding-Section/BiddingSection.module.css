@@ -1,0 +1,90 @@
+.createlisting1{
+    display: flex;
+    background: linear-gradient(60deg,#E7C68E 0%, #9D7A54 100%);
+    color: black;
+    margin-top: 2rem !important;
+    margin-left: 1rem !important;
+    height: 3rem;
+    float: right;
+    width: 100%;
+    border-radius: 2Px;
+    justify-content: center;
+    align-items: center;
+}
+.createlisting1:hover{
+  color: white;
+}
+.createlisting1:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+}
+.grid{
+    display: grid;
+    align-items: center;
+    border: 1px solid;
+    margin-top: 2rem !important;
+    margin-left: 1rem !important;
+}
+.link{
+    display: grid;
+    align-items: center;
+    color: #E7C68E;
+    margin-top: 2rem !important;
+    margin-left: 1rem !important;
+}
+.text:hover{
+    color: white;
+}
+.text{
+    color: #E7C68E;
+    text-decoration:none !important;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+.title{
+    font-weight: 700;
+ 
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: .5rem;
+}
+.grid1{
+    display: grid;
+    align-items: center;
+    border: 1px solid;
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+}
+.Seller {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  .Seller:before, .Seller:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #E7C68E;
+    margin: auto;
+  }
+  .Seller:before {
+    margin-right: 30px
+  }
+  .Seller:after {
+    margin-left: 30px
+  }

@@ -1,0 +1,92 @@
+.main{
+    border-bottom: 1px solid #E7C68E;
+    margin-top: 1rem !important;
+    
+}
+.block{
+    border: 2px solid #E7C68E;
+    margin-top: 1rem !important;
+    
+}
+.header{
+    display: flex;
+    background: linear-gradient(60deg,#E7C68E 0%, #9D7A54 100%);
+    color: black;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    border-bottom: 1px solid #E7C68E;
+    margin-top: 1rem !important;
+    text-align: right;
+    font-size: 18px;
+    margin-right: 1rem;
+    font-weight: 600;
+   
+}
+.border1{
+    border-bottom: 1px solid #E7C68E;
+    margin-top: 1rem !important;
+    font-size: 18px;
+    text-align: right;
+    font-weight: 400;
+    color: #9D7A54;
+   
+}
+.ampount{
+    margin-right: 1rem;
+}
+    .img{
+        
+width: 90%;
+    }
+.text
+{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 3rem !important;
+}
+.pay{
+   color: #E7C68E;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem !important;
+    
+}
+.paytext{
+   color: #9D7A54;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1rem !important;
+   
+}
+@media only screen and (max-width: 600px){
+
+.border1{
+   
+    font-size: 12px;
+    
+}
+.border{
+   
+    font-size: 12px;
+    
+}
+.pay{
+   
+    font-size: 12px;
+    
+}
+.paytext{
+   
+    font-size: 12px;
+    
+}
+}
